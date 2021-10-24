@@ -5,7 +5,44 @@ body {
 }
 
 .container {
+    display:grid;
+    grid-template-areas:
+    'header header header';
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: left-end;
+    padding: 0px 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+
+.overview-hero-text {
+    background-color: #E2E8F0;
+    margin: auto;
+
+}
+
+.health1-image {
+    box-align: left;
+    padding-left: 30px;
 }
