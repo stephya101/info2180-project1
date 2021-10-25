@@ -101,7 +101,7 @@ div.card:first-child img{
     padding: 1.5em;
 }
 
-h3{
+.learn-about h3{
     color: #48BB78;
     font-size: 21px;
 }
@@ -139,9 +139,6 @@ h2 {
     text-decoration: none;
 }
 
-h3{
-    font-size: 18px;
-}
 
 .doc1{
     border-radius: 100%;
@@ -156,6 +153,7 @@ h3{
     width: 12em;
     height:10em;
 }
+
 
 section.stories article {
     display: flex;
@@ -172,15 +170,19 @@ section.newsletter{
     align-content: center;
 }
 
+section.newsletter div.container{
+    align-content: center;
+}
+
 .btn {
     margin-left: .5em;
     background: #2336e4;
-    padding: 1em 1.5em 1em 1.5em;
+    padding: 1em;
     color: #FFF;
     text-decoration: none;
     border-radius: 5px;
 }
-    
+
 footer {
     background-color: rgb(49, 47, 47);
     color: white;
