@@ -8,7 +8,7 @@ window.onload= ()=>{
     subButton.onclick = (event)=>{
         event.preventDefault();
         if (emBox.value.length != 0 && emAdded.test(emBox.value.toLowerCase())){
-            messageSlot.innerHTML = `Thank you! Your email address ${emBox.value} has been added to our mailing list!`;
+            messageSlot.innerHTML = "Thank you! Your email address ${emBox.value} has been added to our mailing list!";
         }
         else{
             messageSlot.innerHTML = "Please enter a valid email address."
