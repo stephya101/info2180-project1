@@ -59,15 +59,13 @@ nav li a:hover{
     color:#5A67D8;
 }
 
-section.overview-hero{
-    background: #E2E8F0;
-}
 
-section.overview-hero div.container div.overview-hero-image img{
+div.overview-hero-image img{
     width: 15em;
 }
 
 section.overview-hero div.container{
+    background: #E2E8F0;
     display: grid;
     padding:2em 4em 2em 4em;
     grid-template-columns: 1fr 2fr;
@@ -75,22 +73,22 @@ section.overview-hero div.container{
     grid-column-gap: 5em;
 }
 
-section.learn-about div.cards{
+div.cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1em;
 
 }
 
-section.learn-about div.cards > div.card img{
+div.card img{
     width: 15em;
 }
 
-section.learn-about div.cards div.card:nth-child(2) img{
+div.card:nth-child(2) img{
     margin-bottom: 3em;
 }
 
-section.learn-about div.cards div.card:first-child img{
+div.card:first-child img{
     margin: 4em 0 3em 0;
 }
 
@@ -110,7 +108,7 @@ h3{
 
 section.testing{
     background: #4A5568;
-    color: #FFF;
+    color: white;
     padding: 2em 1.5em 4em 1.5em;
     margin-top: 3em;
     
@@ -125,7 +123,7 @@ section.testing div.container{
 }
 
 .cta {
-    margin-left: 2em;;
+    margin-left: 2em;
 }
 
 .cta a{
@@ -169,8 +167,20 @@ section.stories article {
 section.newsletter{
     color: white;
     background: #48BB78;
+    padding: 2em 1.5em 4em 1.5em;
+    margin-top: 3em;
+    align-content: center;
 }
 
+.btn {
+    margin-left: .5em;
+    background: #2336e4;
+    padding: 1em 1.5em 1em 1.5em;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
 footer {
     background-color: rgb(49, 47, 47);
     color: white;

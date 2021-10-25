@@ -2,7 +2,7 @@
 window.onload= ()=>{
     let subButton = document.querySelector("section.newsletter form button.btn");
     let emBox = document.querySelector("section.newsletter form input[type=\"email\"]");
-    emBox.setAttribute("placeholder", "Email address");
+    emBox.setAttribute("placeHol", "Email");
     const emAdded = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ ;
     let messageSlot = document.querySelector("section.newsletter div.message");
     subButton.onclick = (event)=>{
