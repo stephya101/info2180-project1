@@ -62,15 +62,17 @@ nav li a:hover{
 section.overview-hero{
     background: #E2E8F0;
 }
+
+section.overview-hero div.container div.overview-hero-image img{
+    width: 15em;
+}
+
 section.overview-hero div.container{
     display: grid;
     padding:2em 4em 2em 4em;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     grid-column-gap: 5em;
-}
-section.overview-hero div.container div.overview-hero-image img{
-    width: 15em;
 }
 
 section.learn-about div.cards{
